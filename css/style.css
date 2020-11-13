@@ -1,0 +1,117 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden
+}
+.container{
+    text-align: center;
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+    padding: auto 10px;
+	overflow: hidden
+}
+.clear{clear: both}
+.fl_left{float: left}
+.fl_right{float: right}
+.over_flow{overflow: hidden}
+
+.contact_us{
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0
+}
+.contact_us .container{
+    margin: 0 auto;
+    width: 1000px;   
+}
+.contact_us h1{
+    color: #222;
+    margin: 40px auto 10px; 
+    text-align: center
+}
+.contact_us h1 span{color: #FF5151}
+.line{
+    width: 100px;
+    height: 1px;
+    background-color: #FF5151;
+    margin: 10px auto 10px    
+}
+.contact_us .forms{
+    width: 66%;
+    margin-right: 2%;
+    margin-left: 1%;
+    padding: 40px 0;
+    text-align: left
+}
+.contact_us .forms form{
+    margin-right: 20px;
+    margin-bottom: 10px
+}
+.contact_us .forms label{
+    display: block;
+    color: #6D6D6D;
+    margin-bottom: 5px;
+    font-size: 14px
+}
+.contact_us .forms input{
+    display: block;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 5px 10px;
+    height: 30px;
+    line-height: 30px;
+    color: #6D6D6D
+}
+.contact_us .forms textarea{
+    width: 100%;
+    height: 210px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    color: #6D6D6D;
+    padding: 10px
+}
+.contact_us button{
+    background-color: #337AB7;
+    color: #fff;
+    float: left;
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: 1px solid #2E6DA4;
+    border-radius: 5px;
+    font-size: 12px;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+.contact_us .map{
+    width: 30%;
+    height: 360px;
+    margin-top: 30px
+}
+.contact_us .map img{
+    max-height: 100%
+}
+  /* start hover of contact us */
+.contact_us .forms input:focus{
+    border: 1px solid #286090;
+    box-shadow: 1px 1px 4px #286090
+}
+.contact_us .forms textarea:focus{
+    border: 1px solid #337AB7;
+    box-shadow: 2px 1px 4px #337AB7    
+}
+.contact_us .forms button:hover{
+    background-color: #286090
+}
+
